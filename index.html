@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Q1.js"></script>
+    <title>Test</title>
+</head>
+<body>
+   <div class="container-auto d-flex row ms-4 me-4 justify-content-center">
+        <div class="row flex-column flex-lg-row p-0">
+            <div class="question-number w-auto py-3 text-white text-center fs-5 d-flex d-lg-block justify-content-between">
+                <p class="m-0 mb-lg-3">Question</p>
+                <p class="fw-bold m-0">01/02</p>
+            </div>
+            <div class="p-0 ps-lg-2 col">
+                <div class="question-text ps-2 pe-2 rounded-bottom-2 text-black">
+                    <div class="d-flex flex-column">
+                        <p class="mt-1">Below are three options on how to respond to the scenario above. Image question the client side pings you that they have a personal emergency and will need to be away from work.</p><p>You will...</p>
+                    </div>
+                </div>
+                <div class="text-primary ps-2 pe-2">
+                    <p class="fst-italic">Below are three options on how to respond to the scenario above. Please choose the response that resonates most with you and click <span class="fw-bold">Next</span> to proceed.</p>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <div class="container mt-5" id="image-select">
+    <div class="row justify-content-around gap-3">
+       <div class="col-6 col-sm-5 col-md-3 col-lg-2 p-3 pb-2 image-bg-color d-flex justify-content-center align-items-center flex-column gap-2">
+           <img src="images/iron-man-2560x2494-infinity-gauntlet-hd-16412.jpg" alt="iron-man" class="img-fluid">
+           <div class="form-check justify-content-center d-flex">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+          </div>
+       </div>
+       <div class="col-6 col-sm-5 col-md-3 col-lg-2 p-3 pb-2 image-bg-color d-flex justify-content-center align-items-center flex-column gap-2">
+           <div><img src="images/Complex_eLearning_322W_322H.png" alt="COmplex e-learning" class="img-fluid"></div>
+           <div class="form-check justify-content-center d-flex">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+          </div>
+       </div>
+       <div class="col-6 col-sm-5 col-md-3 col-lg-2 p-3 pb-2 image-bg-color d-flex justify-content-center align-items-center flex-column gap-2">
+           <img src="images/ELearning.png" alt="Computer image" class="img-fluid">
+           <div class="form-check justify-content-center d-flex">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+          </div>
+       </div>
+       <div class="col-6 col-sm-5 col-md-3 col-lg-2 p-3 pb-2 image-bg-color d-flex justify-content-center align-items-center flex-column gap-2">
+           <img src="images/Medium_Complexity_E_Learning_322W_322H.png" alt="medium complex" class="img-fluid">
+           <div class="form-check justify-content-center d-flex">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+          </div>
+       </div>
+    </div>
+   </div>
+   <div class="d-grid gap-2 mx-4 mx-sm-5 col-md-4 mx-md-auto">
+       <button type="button" class="btn btn-secondary btn-lg btn-css mx-md-auto" id="submitButton" disabled>Submit</button>
+   </div>
+    
+</body>
+</html>
